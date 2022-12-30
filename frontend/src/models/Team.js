@@ -7,3 +7,5 @@ class Team {
         this.img_url = img_url
     }
 }
+
+export default Team;

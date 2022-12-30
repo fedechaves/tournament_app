@@ -1,3 +1,7 @@
-export const rootReducer = (state = {}, action) => {
-    return state;
-}
+import { combineReducers } from 'redux';
+import { teams } from './teams';
+
+
+export const rootReducer = combineReducers({ 
+    teams 
+})
