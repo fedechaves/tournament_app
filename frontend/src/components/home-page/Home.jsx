@@ -9,7 +9,16 @@ const Home = (props) => {
   return (
     <div className='home-page container'>
         <h1 className='text-center home-title'>Welcome to the home page.</h1>
-        {renderTeams()}
+
+        <button type = 'button' className='btn btn-block btn-primary'> 
+          Add Team 
+        </button>
+
+        <div className="team-view">
+          {renderTeams()}
+        </div>
+
+        
 
     </div>
   )
