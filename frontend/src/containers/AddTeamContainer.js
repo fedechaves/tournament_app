@@ -7,7 +7,10 @@ const mapStateToProps = state => ({
 })
 
 const mapDispatchToProps = dispatchEvent => ({
+    addTeam: (team) => ({
+        
 
+    })
 })
 
 export default connect(
